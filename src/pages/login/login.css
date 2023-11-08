@@ -1,0 +1,51 @@
+.page{
+    height: 100vh;
+    width: 100%;
+    background-image: linear linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5))      url("https://plus.unsplash.com/premium_photo-1674747086351-1dda4a14e2a6?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d2hpdGUlMjBmYWJyaWN8ZW58MHx8MHx8fDA%3D");
+background-size: cover;
+}
+.login{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.logintitle{
+    font-size: 50px;
+   
+}
+.loginform{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.loginform>label{
+    margin: 10px 0;
+}
+.logininput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+.loginbtn{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.loginregisterbtn{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: teal;
+    cursor: pointer;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
